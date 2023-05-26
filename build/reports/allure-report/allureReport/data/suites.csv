@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 26 12:23:13 MSK 2023","Fri May 26 12:23:17 MSK 2023","4288","","ChangingDateTest","","ChangingDateTest","shouldRePlanningMeeting","shouldRePlanningMeeting()",""
