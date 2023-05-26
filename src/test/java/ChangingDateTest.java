@@ -23,7 +23,8 @@ public class ChangingDateTest {
     static void setFaker() {
         faker = new Faker(new Locale("ru"));
     }
-    static void setUpAll(){
+
+    static void setUpAll() {
         SelenideLogger.addListener("allure", new AllureSelenide());
     }
 
@@ -31,8 +32,11 @@ public class ChangingDateTest {
     void setupTest() {
         open("http://localhost:9999");
     }
+
     @AfterAll
-    static void tearDownAll(){SelenideLogger.removeListener("allure");}
+    static void tearDownAll() {
+        SelenideLogger.removeListener("allure");
+    }
 
 
     @Test
